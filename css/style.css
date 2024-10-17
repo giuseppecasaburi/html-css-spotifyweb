@@ -130,3 +130,23 @@ li {
     padding-bottom: 10px;
     text-transform: capitalize;
 }
+
+.install {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.utente {
+    display: flex;
+    padding: 15px 0 5px;
+    align-items: center;
+}
+
+.utente i {
+    font-size: 25px;
+}
+
+#nome-utente {
+    font-size: 20px;
+    padding-left: 5px;    
+}
