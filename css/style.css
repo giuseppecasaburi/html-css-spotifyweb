@@ -188,3 +188,31 @@ li {
     padding: 10px 6px;
     text-transform: uppercase;
 }
+
+.container-main {
+    width: 95%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    min-height: 200px;
+}
+
+.title {
+    margin: 25px 0 20px;
+}
+
+.cards ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.list-album li {
+    width: calc((100% - 90px)/6);
+}
+
+a h3 {
+    padding-bottom: 5px;
+}
