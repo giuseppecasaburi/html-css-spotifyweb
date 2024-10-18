@@ -63,6 +63,7 @@ li {
 .content {
     width: calc(100% - var(--nav-bar-height));
     height: calc(100vh - var(--footer-height));
+    overflow: auto;
 
     /* DEBUG */
     border: 1px solid orange;
