@@ -230,3 +230,7 @@ a h3 {
     width: var(--width-cards);
 }
 
+.list-artist img {
+    display: inline-block;
+    border-radius: 50%;
+}
