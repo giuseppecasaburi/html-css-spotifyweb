@@ -14,7 +14,8 @@ img {
 :root {
     --nav-bar-height: 250px;
     --footer-height: 100px;
-    --color: rgba(255, 255, 255, 0.6)
+    --color: rgba(255, 255, 255, 0.6);
+    --width-cards: calc((100% - 90px)/6);
 }
 
 
@@ -27,7 +28,7 @@ body {
     height: 100vh;
 
     /* DEBUG */
-    background-color: lightcoral;
+    background-color: #141922;
 }
 
 .row {
@@ -175,7 +176,7 @@ li {
 }
 
 .upgrade {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .4);
     color: white;
 }
 
@@ -192,12 +193,9 @@ li {
 .container-main {
     width: 95%;
     margin: 0 auto;
-
-    /* DEBUG */
-    min-height: 200px;
 }
 
-.title {
+.title-rec {
     margin: 25px 0 20px;
 }
 
@@ -205,14 +203,29 @@ li {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: space-between;
     text-align: center;
 }
 
 .list-album li {
-    width: calc((100% - 90px)/6);
+    width: var(--width-cards);
+    justify-content: space-between;
 }
 
 a h3 {
-    padding-bottom: 5px;
+    
+    padding: 10px 0 5px;
 }
+
+.title-daily {
+    margin: 25px 0 8px;
+}
+
+.descr-pl {
+    display: inline-block;
+    padding-bottom: 25px;
+}
+
+.list-daily li {
+    width: var(--width-cards);
+}
+
