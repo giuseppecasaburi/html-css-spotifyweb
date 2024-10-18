@@ -179,3 +179,12 @@ li {
     color: white;
 }
 
+.list-type {
+    display: flex;
+    justify-content: center;
+}
+
+.list-type li {
+    padding: 10px 6px;
+    text-transform: uppercase;
+}
